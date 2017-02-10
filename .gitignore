@@ -1,0 +1,4 @@
+src/gateway/echo/target/
+/jmeter.log
+/root.log
+.DS_Store
