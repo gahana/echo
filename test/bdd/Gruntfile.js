@@ -6,12 +6,12 @@ module.exports = function(grunt) {
             src: 'features',
             options: {
                 // tags: '@current',
-                format: 'pretty',
-                steps: 'features/step_definitions'
+                format: 'json',
+                // steps: 'features/step_definitions'
             }
         }
     });
 
     grunt.loadNpmTasks('grunt-cucumber');
-    grunt.registerTask('tests', ['cucumberjs']);
+    grunt.registerTask('default', ['cucumberjs']);
 }
