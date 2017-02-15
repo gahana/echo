@@ -7,6 +7,7 @@ module.exports = function(grunt) {
             options: {
                 // tags: '@current',
                 format: 'json',
+                // format: 'pretty',
                 // steps: 'features/step_definitions'
             }
         }
