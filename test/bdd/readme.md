@@ -28,6 +28,6 @@ $ npm install
 ## Run
 Run tests using below command.
 ```
-$ grunt tests
+$ ./node_modules/.bin/cucumberjs
 ```
 
