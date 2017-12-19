@@ -6,28 +6,32 @@ This is a test project for hello. This test project has automated test scripts b
 ### Node JS
 [Download](https://nodejs.org/en/download/) and install NodeJS. NPM should be installed as part of it.
 
-### Grunt
-Install Grunt, a build tool.
-```
-$ npm install -g grunt-cli
-```
-
-### Cucumber
-Install CucumberJS for BDD style and Gerkhin language support.
-```
-$ npm install -g cucumber
-```
-
 ## Dependencies
 Get dependencies in package.json by npm install.
 ```
-$ cd hello/test/bdd
+$ cd test
 $ npm install
 ```
 
 ## Run
 Run tests using below command.
-```
+
+```bash
 $ ./node_modules/.bin/cucumberjs
 ```
 
+Specify the feature file to run
+
+```bash
+$ ./node_modules/.bin/cucumberjs features/echo.feature
+```
+
+Specify the output format
+
+```bash
+$ ./node_modules/.bin/cucumberjs --format json
+$ ./node_modules/.bin/cucumberjs --format summary
+$ ./node_modules/.bin/cucumberjs --format progress
+```
+
+See [cucumber-js docs](https://github.com/cucumber/cucumber-js/blob/master/docs/cli.md) for more options.

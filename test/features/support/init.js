@@ -6,7 +6,7 @@ const {defineSupportCode} = require('cucumber');
 
 defineSupportCode(function({Before, Given, When, Then}) {
     Before(function() {
-        this.apickli = new apickli.Apickli('https', "srinis-test.apigee.net");
+        this.apickli = new apickli.Apickli('https', "demo24-test.apigee.net");
         this.apickli.storeValueInScenarioScope("ECHO_TEXT", "HiThere");
     });
 

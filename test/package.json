@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Functional tests for Hello API",
   "dependencies": {
-		"apickli": "latest",
-		"cucumber": "latest"
+  	"apickli": "latest",
+  	"cucumber": "latest"
   }
 }
