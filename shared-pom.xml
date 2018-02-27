@@ -96,11 +96,11 @@
 <!-- This is where you add the environment specific properties under various profile names -->
  <profiles>
         <profile>
-            <id>edge</id>
+            <id>test</id>
             <properties>
                 <org>${org}</org>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
                 <options>validate</options>  <!-- default org, replace with default org to avoid passing parameter e.g. -Dorg testmyapi -->
-                <apigee.profile>edge</apigee.profile>
+                <apigee.profile>test</apigee.profile>
                 <apigee.env>${env}</apigee.env>
                 <apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
                 <apigee.apiversion>v1</apigee.apiversion>
