@@ -3,10 +3,12 @@
 const apickli = require('apickli');
 const {defineSupportCode} = require('cucumber');
 
+const ORG = process.env.EDGE_ORG;
+const ENV = process.env.EDGE_ENV;
 
 defineSupportCode(function({Before, Given, When, Then}) {
     Before(function() {
-        this.apickli = new apickli.Apickli('https', "demo24-test.apigee.net");
+        this.apickli = new apickli.Apickli('https', ORG + "-" + ENV + ".apigee.net");
         this.apickli.storeValueInScenarioScope("ECHO_TEXT", "HiThere");
     });
 
