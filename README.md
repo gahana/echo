@@ -6,7 +6,7 @@ A simple Apigee Edge proxy that echoes back query param text
 
 ```sh
 cd hello
-$ mvn install -Pedge -Dusername=$EDGE_USERNAME -Dpassword=$EDGE_PASSWORD -Dorg=$EDGE_ORG -Denv=$EDGE_ENV
+$ mvn install -Ptest -Dusername=$EDGE_USERNAME -Dpassword=$EDGE_PASSWORD -Dorg=$EDGE_ORG -Denv=$EDGE_ENV
 ```
 
 # Test
