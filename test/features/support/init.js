@@ -3,8 +3,8 @@
 const apickli = require('apickli');
 const {defineSupportCode} = require('cucumber');
 
-const ORG = process.env.EDGE_ORG;
-const ENV = process.env.EDGE_ENV;
+const ORG = process.env.org;
+const ENV = process.env.env;
 
 defineSupportCode(function({Before, Given, When, Then}) {
     Before(function() {
