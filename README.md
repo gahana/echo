@@ -1,7 +1,7 @@
 # Overview
 A simple Apigee Edge proxy that echoes back query param text
 
-<a change>
+a change
 
 # Deploy Proxy
 
